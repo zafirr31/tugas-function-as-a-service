@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": ["../../home/zafirr/Kuliah/Pemfung/TugasFaaS/my_functions/example.ts"],
+  "sourceRoot": "/tmp/tmp-478-YFYz7Cj1K3Sq",
+  "sourcesContent": ["import { Handler } from \"@netlify/functions\";\n\nconst handler: Handler = async (event, context) => {\n  return {\n    statusCode: 200,\n    body: JSON.stringify({ message: \"Hello World\" }),\n  };\n};\n\nexport { handler };"],
+  "mappings": ";;;;;;;;;AAAA;AAAA;AAAA;AAEA,IAAM,UAAmB,OAAO,OAAO,YAAY;AACjD,SAAO;AAAA,IACL,YAAY;AAAA,IACZ,MAAM,KAAK,UAAU,EAAE,SAAS;AAAA;AAAA;",
+  "names": []
+}

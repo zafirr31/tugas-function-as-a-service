@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@netlify/functions": "^0.9.0",
+    "@types/aws-lambda": "^8.10.85",
+    "bigint-crypto-utils": "^3.0.21",
+    "fp-ts": "^2.11.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.9"
+  }
+}
