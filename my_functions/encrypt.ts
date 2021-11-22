@@ -69,7 +69,6 @@ const calculateEncryptedMessage = (event) => {
 
 const encrypt = (event: EncryptionParameters) => {
     // Forced to not be pure functional
-    // Value of function parameter is 2**256
     var p = getRandomPrime(512).toString()
     var q = getRandomPrime(512).toString()
     return pipe(
